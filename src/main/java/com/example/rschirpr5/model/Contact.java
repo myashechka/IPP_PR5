@@ -11,6 +11,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Contact {
+    @Id
     private Integer id;
     private String name;
     private String phone;
